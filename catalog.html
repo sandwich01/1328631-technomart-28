@@ -7,13 +7,15 @@
   <body>
     <header>
       <a><img src="img/main-logo.svg" width="220" height="47" alt="Логотип интернет-магазина строительных материалов «Техномарт»"></a>
-      <input placeholder="Поиск: ">
-        <a href=""> Закладки: 0</a>
-        <a href=""> Корзина: 10</a>
-        <a href=""> Оформить заказ</a>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <input type="search" name="header-search" placeholder="Поиск:" aria-label="Поле поиска">
+        </form>
+        <a href="">Закладки: 0</a>
+        <a href="">Корзина: 10</a>
+        <a href="">Оформить заказ</a>
     <h1>Интеренет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
-    <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-    <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+    <a href="tel:+78125550555" aria-label="Номер телефона">+7 (812) 555-05-55</a>
+    <address aria-label="Адрес">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
     "Равшан Джамшутович"
       <ul>
         <li><a href="">Мои заказы</a></li>
@@ -43,18 +45,47 @@
           <h3>Цена:</h3>
             <input value="0">
             <input value="30000">
-          <h3>Производители:</h3>
-            <ul>
-              <li><input type="checkbox" name="Bosch"><label for="Bosch">Bosch</label></li>
-              <li><input type="checkbox" name="Interskol"><label for="Interskol">Интерскол</label></li>
-              <li><input type="checkbox" name="Makita"><label for="Makita">Makita</label></li>
-              <li><input type="checkbox" name="Dewalt"><label for="Dewalt">Dewalt</label></li>
-              <li><input type="checkbox" name="Hitachi"><label for="Hitachi">Hitachi</label></li>
-            </ul>
-          <h3>Питание:</h3>
-            <input type="checkbox" name="Accumulator"><label for="Accumulator">Аккумуляторные</label>
-            <input type="checkbox" name="Networking"><label for="Networking">Сетевые</label>
-          <button> Показать</button>
+            <form action="https://echo.htmlacademy.ru" method="get">
+            <fieldset>
+              <legend>Производители:</legend>
+              <ul aria-label="Выбор производителя">
+                <li>
+                  <input type="checkbox" name="manufacturer" value="bosch" id="filter-bosch" checked="">
+                  <label for="filter-bosch">Bosch</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturer" value="interscol" id="filter-interscol">
+                  <label for="filter-interscol">Интерскол</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturer" value="makita" id="filter-makita" checked="">
+                  <label for="filter-makita">Makita</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturer" value="dewalt" id="filter-dewalt">
+                  <label for="filter-dewalt">Dewalt</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="manufacturer" value="hitachi" id="filter-hitachi">
+                  <label for="filter-hitachi">Hitachi</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Питание:</legend>
+              <ul aria-label="Выбор типа питания инструмента">
+                <li>
+                  <input type="radio" name="power-type" value="battery" id="battery-type" checked="">
+                  <label for="battery-type">Аккумуляторные</label>
+                </li>
+                <li>
+                  <input type="radio" name="power-type" value="mains" id="main-type">
+                  <label for="main-type">Сетевые</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button>Показать</button>
+            </form>
         </section>
         <section class="sorter-section">
           <p>Сортировка:</p>
@@ -186,6 +217,11 @@
           </div>
           <b>12500 Р.</b>
         </article>
+        <div class="pop-up">
+          <h2>Товар добавлен в корзину!</h2>
+            <a href="">Оформить заказ</a>
+            <a href="">Продолжить покупки</a>
+        </div>
         <div>
           <a href="">1</a>
           <a href="">2</a>
