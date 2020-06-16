@@ -48,64 +48,48 @@ a {
 }
 
 .search {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   background-color: var(--basic-grey);
   color: var(--wight);
 }
 
 .header-top {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   background-color: var(--basic-grey);
   color: var(--wight);
 }
 
-.back {
+.order-background {
   background-color: var(--basic-green);
 }
 
-.bucket-background {
+.cart-background {
   background-color: var(--basic-red);
 }
 
 .main-header h1 {
   font-style: italic;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
-  display: flex;
   align-items: center;
   color: var(--basic-red)
 }
 
-.number {
-  font-style: normal;
-  font-weight: bold;
+.phone-number {
   font-size: 21px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   background-color: var(--basic-background);
   color: var(--basic-red);
 }
 
 .main-header address {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   background-color: var(--basic-background);
   color: var(--addres);
 }
@@ -115,22 +99,16 @@ a {
 }
 
 .login a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 21px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: var(--black);
 }
 
 .header-navigation a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   color: var(--wight);
 }
@@ -144,8 +122,6 @@ a {
 }
 
 .about-company h2 {
-  font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -154,26 +130,19 @@ a {
 
 .about-company p {
   font-family: 'PT Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 13px;
   line-height: 24px;
 }
 
 .about-company li {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: var(--black);
 }
 
-.about-company .block {
-  font-style: normal;
-  font-weight: normal;
+.about-company .more-about-company {
   font-size: 14px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -186,103 +155,85 @@ a {
 }
 
 .footer-nav a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   color: var(--wight);
 }
 
-.footer-nav .color {
+.footer-nav .list-color {
   color: var(--special-yellowlight);
 }
 
 .footer p {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   background-color: var(--footer);
   color: var(--wight);
 }
 
-.footer .tech {
-  font-style: normal;
-  font-weight: normal;
+.footer address {
   font-size: 18px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   background-color: var(--addres);
   color: var(--wight);
 }
 
-.reference {
+.footer .footer-phone-number {
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  background-color: var(--addres);
+  color: var(--wight);
+}
+
+.developer-link {
   font-family: Cuprum;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   background-color: var(--footer);
   color: var(--special-yellowlight);
 }
 
 .log-name {
-  font-style: normal;
-  font-weight: normal;
   font-size: 21px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: var(--black);
 }
 
 .main-header .log-menu a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: var(--addres);
 }
 
 .filter legend {
-  font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'PT Sans' sans-serif;
   font-size: 17px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .layer a {
-  font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'PT Sans' sans-serif;
   font-size: 13px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .open-layer {
-  font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-transform: uppercase;
   background-color: var(--basic-background);
@@ -291,8 +242,6 @@ a {
 
 .design-options {
   font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   line-height: 19px;
   text-transform: uppercase;
@@ -300,24 +249,16 @@ a {
 }
 
 .drill-description {
-  font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'PT Sans' sans-serif;
   font-size: 18px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: var(--black);
 }
 
 .price {
-  font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'PT Sans' sans-serif;
   font-size: 17px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -326,12 +267,9 @@ a {
 }
 
 .old-price {
-  font-family: 'PT Sans'sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'PT Sans' sans-serif;
   font-size: 17px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -343,11 +281,8 @@ a {
 }
 
 .catalog-drill .buy {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
