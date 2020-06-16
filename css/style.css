@@ -49,7 +49,6 @@ a {
 
 .search {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   background-color: var(--basic-grey);
   color: var(--wight);
@@ -57,7 +56,6 @@ a {
 
 .header-top {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   background-color: var(--basic-grey);
   color: var(--wight);
@@ -89,7 +87,6 @@ a {
 
 .main-header address {
   font-size: 14px;
-  line-height: 24px;
   background-color: var(--basic-background);
   color: var(--addres);
 }
@@ -108,7 +105,6 @@ a {
 
 .header-navigation a {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   color: var(--wight);
 }
@@ -130,13 +126,10 @@ a {
 
 .about-company p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 24px;
 }
 
 .about-company li {
   font-size: 18px;
-  line-height: 24px;
   color: var(--black);
 }
 
@@ -156,7 +149,6 @@ a {
 
 .footer-nav a {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   color: var(--wight);
 }
@@ -174,7 +166,6 @@ a {
 
 .footer address {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   background-color: var(--addres);
   color: var(--wight);
@@ -182,14 +173,12 @@ a {
 
 .footer .footer-phone-number {
   font-size: 18px;
-  line-height: 24px;
   align-items: center;
   background-color: var(--addres);
   color: var(--wight);
 }
 
 .developer-link {
-  font-family: Cuprum;
   font-size: 16px;
   line-height: 18px;
   align-items: center;
@@ -224,7 +213,6 @@ a {
 
 .layer a {
   font-family: 'PT Sans' sans-serif;
-  font-size: 13px;
   line-height: 18px;
   align-items: center;
   text-transform: uppercase;
